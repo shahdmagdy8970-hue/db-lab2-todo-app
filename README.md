@@ -54,7 +54,7 @@ No ORM is used. All SQL is written by hand, with prepared statements.
 
 **Register page with error messages**
 
-![Register errors](screenshots/register_errors.png)
+![Register errors](screenshots/register.errors.png)
 
 **Login page**
 

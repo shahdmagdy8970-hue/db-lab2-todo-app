@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(135deg, #ffe0ec, #fff0f6 50%, #f3e5ff);
+    min-height: 100vh;
+}
+
+/* the cards */
+.card {
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 6px 20px rgba(233, 100, 150, 0.15) !important;
+}
+
+/* main buttons: pink */
+.btn-primary {
+    background-color: #ec6a9c;
+    border-color: #ec6a9c;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #d9548a;
+    border-color: #d9548a;
+}
+
+/* secondary buttons */
+.btn-outline-primary {
+    color: #d9548a;
+    border-color: #ec6a9c;
+}
+.btn-outline-primary:hover {
+    background-color: #ec6a9c;
+    border-color: #ec6a9c;
+    color: #fff;
+}
+
+/* inputs: pink glow when focused */
+.form-control:focus {
+    border-color: #ec6a9c;
+    box-shadow: 0 0 0 0.2rem rgba(236, 106, 156, 0.25);
+}
+
+/* titles and links */
+h1 {
+    color: #c2417a;
+}
+a {
+    color: #d9548a;
+}
+a:hover {
+    color: #b8336f;
+}
+.list-group-item {
+    background-color: transparent;
+    transition: background-color 0.2s;
+}
+.list-group-item:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+/* done to-dos: soft green box */
+.list-group-item:has(.btn-success) {
+    background-color: #f0fff4;
+}
+.form-control {
+    border-radius: 12px;
+}
+.btn {
+    border-radius: 12px;
+}
+.input-group > .form-control {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.input-group > .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
